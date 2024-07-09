@@ -1,3 +1,20 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+@font-face {
+    font-family: "Inter-Bold";   /*Can be any text*/
+    src: local("AirbnbCerealLight"),
+      url("./assets/fonts/static/Inter-Bold.ttf") format("truetype");
+  }
+@font-face {
+    font-family: "Extra-Bold";   /*Can be any text*/
+    src: local("AirbnbCerealLight"),
+      url("./assets/fonts/static/Inter-ExtraBold.ttf") format("truetype");
+  }
+@font-face {
+    font-family: "Reguler";   /*Can be any text*/
+    src: local("AirbnbCerealLight"),
+      url("./assets/fonts/static/Inter-Regular.ttf") format("truetype");
+  }
