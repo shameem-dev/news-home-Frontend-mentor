@@ -31,32 +31,32 @@ function App() {
             {/* Content Area */}
             <div className='my-6'>
                 <div>
-                    <h1 className='text-4xl font-bold mb-4'>The Bright Future of Web 3.0?</h1>
+                    <h1 className='text-4xl font-extrabold mb-4'>The Bright Future of Web 3.0?</h1>
                 </div>
                 <div>
-                    <p className='text-base opacity-90 mb-4'> We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the people. 
+                    <p className='text-lg opacity-90 mb-4'> We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the people. 
                     But is it really fulfilling its promise?</p>
 
-                    <button className='bg-red-400 px-6 py-2 text-lg text-blue-950 font-semibold tracking-widest'>READ MORE</button>
+                    <button className='bg-red-400 px-6 py-2 text-xl text-blue-950 font-bold tracking-widest'>READ MORE</button>
                 </div>
             </div>
 
         </div>
         <div className='bg-slate-900 p-6 text-white'>
-            <h1 className='text-yellow-600 text-2xl font-bold pb-4'>New</h1>
+            <h1 className='text-yellow-600 text-4xl font-extrabold pb-4'>New</h1>
             <div className='my-4'>
-                <h4 className='text-xl font-semibold'>Hydrogen VS Electric Cars</h4>
+                <h4 className='text-xl font-bold'>Hydrogen VS Electric Cars</h4>
                 <p className='opacity-85 my-2'>Will hydrogen-fueled cars ever catch up to EVs?</p>
             </div>
             <hr />
             <div className='my-4'>
-                <h4 className='text-xl font-semibold'>The Downsides of AI Artistry</h4>
+                <h4 className='text-xl font-bold'>The Downsides of AI Artistry</h4>
                 <p className='opacity-85 my-2'> What are the possible adverse effects of on-demand AI image generation?
                 </p>
             </div>
             <hr />
             <div className='my-4'>
-                <h4 className='text-xl font-semibold'>Is VC Funding Drying Up?</h4>
+                <h4 className='text-xl font-bold'>Is VC Funding Drying Up?</h4>
                 <p className='opacity-85 my-2'>Private funding by VC firms is down 50% YOY. We take a look at what that means.</p>
             </div>
         </div>
@@ -69,28 +69,28 @@ function App() {
                 </div>
                 <div className='flex flex-col justify-between pl-6'>
                     <p className='text-red-400 text-4xl font-bold'>01</p>
-                    <p>Reviving Retro PCs</p>
-                    <p>What happens when old PCs are given modern upgrades?</p>
+                    <p className='text-blue-900 font-extrabold text-xl'> Reviving Retro PCs</p>
+                    <p className='text-gray-600'>What happens when old PCs are given modern upgrades?</p>
                 </div>
             </div>
             <div className='flex my-8'>
                 <div>
-                    <img src="./src/images/image-top-laptops.jpg" alt="Laps"  />
+                    <img src="./src/images/image-top-laptops.jpg" alt="Laps" className='w-40 md:w-full'   />
                 </div>
                 <div className='flex flex-col justify-between pl-6'>
                     <p className='text-red-400 text-4xl font-bold'> 02</p>
-                    <p>Top 10 Laptops of 2022</p>
-                    <p>Our best picks for various needs and budgets.</p>
+                    <p className='text-blue-900 font-extrabold text-xl'>Top 10 Laptops of 2022</p>
+                    <p className='text-gray-600'>Our best picks for various needs and budgets.</p>
                 </div>
             </div>
             <div className='flex my-8'>
                 <div>
-                    <img src="./src/images/image-gaming-growth.jpg" alt="Gaming"  />
+                    <img src="./src/images/image-gaming-growth.jpg" alt="Gaming" className='w-44 md:w-full' />
                 </div>
                 <div className='flex flex-col justify-between pl-6'>
                     <p className='text-red-400 text-4xl font-bold'>03</p>
-                    <p className='text-gray-900 text-2xl'>The Growth of Gaming</p>
-                    <p>How the pandemic has sparked fresh opportunities.</p>
+                    <p className='text-blue-900 font-extrabold text-xl'>The Growth of Gaming</p>
+                    <p className='text-gray-600'>How the pandemic has sparked fresh opportunities.</p>
                 </div>
             </div>
             
