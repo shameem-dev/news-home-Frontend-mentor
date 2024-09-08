@@ -56,10 +56,10 @@ function App() {
         {/* Img section */}
         <div>
             <div className='block md:hidden'>
-              <img src="./src/images/image-web-3-mobile.jpg" alt="" />
+              <img src="src/images/image-web-3-mobile.jpg" alt="" />
             </div>
             <div className='hidden md:block'>
-              <img src="./src/images/image-web-3-desktop.jpg" alt="" />
+              <img src="src/images/image-web-3-desktop.jpg" alt="" />
             </div>
         
             {/* Content Area */}
